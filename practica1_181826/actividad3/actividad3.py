@@ -7,7 +7,7 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml') #Rev
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml') #Revisa que este archivo está en tu carpeta
 
 #Se lee la imagen
-img = cv2.imread('./images/mustang.jpg')
+img = cv2.imread('./images/1.jpg')
 
 #Se convierte a escala de grises
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
